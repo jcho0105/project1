@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Product" icon-name="standard:product">
+        <ul>
+            <template if:true={responseReceived}>
+                
+                    <template for:each={products2.data} for:item="product2">
+                        <li key={products2.Id}>
+                            <div class="slds-p-around-medium">
+                                <lightning-tile label = {product2.Name} type="media">
+                                    <lightning-icon slot="media" icon-name="standard:product2"></lightning-icon>
+                                </lightning-tile>
+                            </div>
+                     </li>
+                 </template>
+                
+            </template>
+        </ul>
+    </lightning-card>
+</template>
