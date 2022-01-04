@@ -1,12 +1,13 @@
 h1 {
     font-size: 1.7em;
     color: white;
+    font-weight: bold;
 }
 
 span {
     font-size: 1.3em;
     color: white;
-
+    font-weight: bold;
 }
 
 .text1 {
