@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Age</fullName>
+    <active>true</active>
+    <description>Customer has to be at least 13</description>
+    <errorConditionFormula>IF(ISNULL( Age__c ), false, Age__c &lt; 13 )</errorConditionFormula>
+    <errorDisplayField>Age__c</errorDisplayField>
+    <errorMessage>Cutomer is too young. Need adult.</errorMessage>
+</ValidationRule>
