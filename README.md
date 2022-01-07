@@ -2,7 +2,7 @@
 
 ## Project Description
 
-keeb 
+keeb utilizes both Salesforce CRM and Experience Cloud to connect business and customers. 
 
 ## Technologies Used
 
